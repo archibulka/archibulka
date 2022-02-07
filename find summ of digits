@@ -1,0 +1,6 @@
+startNum = int(input()) #input three-digit value
+theferst = startNum//100 #find the ferst digit
+thesekond = startNum//10%10 #find the sekonddigit
+thethreard = startNum%10 #find the threard digit
+summ = theferst + thesekond + thethreard #find summ of digits
+print(summ) #print the result
