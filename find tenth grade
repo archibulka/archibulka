@@ -1,0 +1,3 @@
+floatNum = float(input()) #here inputs not negative num
+tenthGrade = floatNum//10%10 #i delited numbers on the right and on the left from tenth grade
+print(tenthGrade) #print the resut - value of tenth grade
